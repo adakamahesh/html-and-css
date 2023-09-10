@@ -1,0 +1,12 @@
+body {
+    color: blue;
+}
+div {
+    color: red;
+    background-color:black;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid rebeccapurple;
+}
+h1 {
+    color: green;
+}

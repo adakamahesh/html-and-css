@@ -1,0 +1,16 @@
+div {
+    color: blue;
+}
+span {
+    color: brown;
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+.div-blue {
+    color: blue;
+    background-color: aqua;
+}
+.div-red {
+    color: red;
+    background-color: aquamarine;
+}
