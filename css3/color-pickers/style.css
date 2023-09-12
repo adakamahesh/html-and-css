@@ -1,0 +1,42 @@
+/*RGB->(red,green,blue)*/
+#one{
+    color: rgb(80, 200,10);
+    background: rgb(20,40,60);
+}
+#two{
+    color: rgb(60,40,20);
+    background: rgb(20,60,40);
+}
+#three{
+    color: rgb(50,40,20);
+    background: rgb(80,80,80);
+}
+body {
+    background: rgb(30,10,90);
+}
+/*RGBA->(red,green,blue,opacity)*/
+.one{
+    color: rgb(250,80,100);
+    background: rgba(10,20,30,0.250);
+}
+.two{
+    color: rgb(80, 200,10);
+    background: rgba(0,0,0,0.2);
+}
+.three{
+    color: rgb(220,220,100);
+    background: rgba(10,20,40,0.5);
+}
+/*RRGGBB(red,red,green,green,blue,blue)*/
+.div-one{
+    color:#ff0000;
+    background:#00ff00;
+}
+.div-two{
+    color: #aaaaa0;
+    background: #00aaaa;
+}
+.div-three{
+    color: #b0b0b0;
+    background: #0b0b0b;
+}
