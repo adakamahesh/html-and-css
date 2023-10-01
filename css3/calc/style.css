@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.navbar {
+    color: white;
+    background: blue;
+    font-size: 3rem;
+}
+.banner {
+    background: green;
+    min-height: calc(100vh - 100px) ;
+}
