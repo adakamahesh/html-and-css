@@ -1,0 +1,18 @@
+.one{
+    line-height: 0.5rem;
+}
+.two{
+    letter-spacing: 0.5em;
+}
+.three{
+    word-spacing: 1em;
+}
+h1{
+    text-transform: capitalize;
+}
+a{
+    /*text-decoration: none;*/
+    /*text-decoration: overline;*/
+    /*text-decoration: underline;*/
+    text-decoration: line-through;
+}

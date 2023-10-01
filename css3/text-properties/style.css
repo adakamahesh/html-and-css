@@ -1,0 +1,18 @@
+.one{
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 2rem;
+}
+.two{
+    font-weight: bolder;
+    font-style: oblique;
+    text-indent: 80px;
+}
+.three{
+    font-weight: lighter;
+    font-style:normal;
+    text-indent: 90px;
+}
+h1{
+    text-align: center;
+}
