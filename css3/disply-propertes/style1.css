@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: square;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background: blue;
+    display: block;
+    padding: 20px;
+    margin: 10px 10px;
+}
+a{
+    color:wheat;
+    background: blue;
+    margin: 10px;
+    display: block;
+}
+.box1,.box2,.box3{
+    color: white;
+    width: 150px;
+    height: 150px;
+}
+.box1{
+    background: blue;
+    padding: 20px;
+}
+.box2{
+    background: red;
+}
+.box3{
+    background: green;
+    padding: 30px;
+}

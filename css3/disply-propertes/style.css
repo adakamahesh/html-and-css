@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+.block{
+    color: white;
+    background: blue;
+    display: block;
+    width: 180px;
+    margin: 20px auto;
+}
+.inline{
+    color: aliceblue;
+    background: orangered;
+    display: inline;
+    /*margin: 20px auto;*/
+
+}
