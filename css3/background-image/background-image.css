@@ -1,0 +1,34 @@
+div{
+    /*height: 350px;*/
+    color: red;
+    min-height: 100vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.bigimage{
+    background: url(bigimage.webp);/*it is used to add the image*/
+    background-size: cover;/*it is used to cover the all space without repeat*/
+    background-attachment: fixed;/*it is used to fix the backgroung and text will be scrole*/
+}
+.smallimage{
+    background: url(small.jpg);
+    background-repeat: no-repeat;/*it is used to no repeat the img*/
+    background-repeat: repeat-x;/*it is used to repeat x direction*/
+    background-repeat: repeat-y;/*it is used to repeat y direction*/
+    background-repeat: round;/*it is used to properly repeat x direction*/
+    background-repeat: space;/*it can be used to diplay the space between images*/
+}
+.folder{
+    background: url(folder.jpg);
+    background-size: contain;/*it is used to cover the space with repeat img*/
+    background-repeat: no-repeat;
+    background-position: center;/*it is used to set the position*/
+    background-position: left;
+    background-position: right;
+    background-position: top;
+    background-position: bottom;
+    background-position: 100% 100%;
+}
