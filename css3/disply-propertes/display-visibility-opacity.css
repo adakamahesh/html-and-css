@@ -1,0 +1,20 @@
+h1{
+    background: blue;
+    color: bisque;
+    padding: 10px;
+}
+.display{
+    display: none;/*it is used to remove the data and space*/
+}
+.visibility{
+    visibility: hidden;/*it is used to hidde the data only but space is present*/   
+}
+.opacity0{
+    opacity: 0;/*it is also work like visibility*/
+}
+.opacity1{
+    opacity: 1;/* nothing will be change*/
+}
+.opacity5{
+    opacity: 0.5;/*it is used to reduse the background colour tickness*/
+}
