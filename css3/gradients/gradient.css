@@ -1,0 +1,30 @@
+/*gradients->background:linear-gradient()
+to left
+to right
+to top
+deg*/
+div{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+.one{
+    background: linear-gradient(to bottom, red, green);
+}
+.two{
+    background: linear-gradient(to top, red,blue,green);
+}
+.three{
+    background: linear-gradient(315deg, red, blue, yellow);
+}
+.four{
+    background: linear-gradient(to top right, red, green,
+    yellow);
+}
+
+.five{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+}
+.six{
+    background: linear-gradient(to left, rgba(0,0,0,0.2), rgb(0,0,0.9));
+}

@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+}
+.banner{
+    background: url(./flower.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(./flower.avif) center/cover no-repeat fixed;
+}
