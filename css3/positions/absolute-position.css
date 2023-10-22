@@ -1,0 +1,20 @@
+div{
+    border: 5px solid red;
+    background: yellow;
+    margin-top: 40px;
+    position: relative;
+}
+.one{
+    background: blue;
+}
+.two{
+    background: green;
+   /* position: relative;*/
+}
+span{
+    background: lightcoral;
+    position: absolute;
+    top: 0;
+    right: 20%;
+
+}

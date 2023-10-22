@@ -1,0 +1,15 @@
+div{
+    border: 5px solid red;
+    background: yellow;
+    margin-top: 40px;
+    position: static;
+}
+.one{
+    background: blue;
+}
+.two{
+    background: green;
+}
+span{
+    background: lightcoral;
+}
