@@ -1,0 +1,19 @@
+#header{
+    background: blue;
+    color: antiquewhite;
+    text-transform: capitalize;
+    text-align: center;
+}
+.header{
+    background: red;
+    color: azure;
+    text-transform: capitalize;
+    text-align: left;
+}
+p{
+    background: blue;
+    color: beige;
+    text-transform: capitalize;
+    text-align: right;
+    font-size: 2rem;
+}
