@@ -1,0 +1,31 @@
+div{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.one{
+    background: blue;
+    /*transform: translateX(5%);*/
+    /*transform: rotateX(20deg);*/
+    /*transform: scaleX(2);*/
+    transform: skewX(-20deg);
+}
+.two{
+    background: red;
+    /*transform: translateY(20px);*/
+    /*transform: rotateY(45deg);*/
+    /*transform: scaleY(1.5);*/
+    transform: skew(25deg);
+}
+.three{
+    background: green;
+    /*transform: translate(25px,30px);*/
+    /*transform: rotate(60deg);*/
+    /*transform: scale(1.8);*/
+    transform: skewY(20deg);
+}
+/*
+translator->it can be used to move x and y directions
+rotate->it can be used to rotate the directions
+scale->it can be used to x and y directions size increase and decrease
+*/
