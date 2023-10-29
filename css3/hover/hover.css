@@ -1,0 +1,18 @@
+.header{
+    color: blue;
+}
+p{
+    color: red;
+}
+.header:hover{
+    color:whitesmoke;
+    font-size: 2rem;
+    background: green;
+}
+p:hover{
+    color:white;
+    font-size: 1.5rem;
+    background: blue;
+}
+/*:hover is used to modefie the collers and designs 
+  it can be applied only arrow are in the present*/
