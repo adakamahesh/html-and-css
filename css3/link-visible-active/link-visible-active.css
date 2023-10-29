@@ -1,0 +1,15 @@
+a:link{
+    color: aqua;
+}/*it can be modefie the link*/
+a:visited{
+    color: red;
+}/*it can be modefie onley we visite the link*/
+a:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+}/*it can onley active we can click time*/
+:root{
+    background: gray;
+}/*it can work as a like bodey tag*/
