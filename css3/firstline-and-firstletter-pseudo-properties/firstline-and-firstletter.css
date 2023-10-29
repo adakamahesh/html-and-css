@@ -1,0 +1,8 @@
+p::first-line{
+    color: brown;
+    background: black;
+    font-weight: bold;
+}/*this is used to modefie first line*/
+p::first-letter{
+    font-size: 2rem;
+}/*this is used to modefie first letter*/

@@ -1,0 +1,17 @@
+div h1{
+    text-transform: capitalize;
+    color: aqua;
+}/* this is used to applied all div childs*/
+div>h1{
+    text-transform: none;
+    color: lime;
+}/*this is used to applied only div direct childs*/
+.header h1{
+    color: green;
+    font-size: 2rem;
+}
+.header>h1{
+    color:blue;
+    font-style: italic;
+    font-weight: bold;
+}
