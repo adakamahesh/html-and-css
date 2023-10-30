@@ -1,0 +1,35 @@
+div{
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+.transition{
+    background: blue;
+    transition: all 01s linear;
+}
+.transition:hover{
+    transform: translateX(200px);
+    background: blueviolet;
+}
+.animation{
+    background: green;
+    /*animation-name: movinganimation;
+    animation-duration: 20s;
+    animation-iteration-count: 2;*/
+    animation: movinganimation 10s 2;
+}
+@keyframes movinganimation{
+    0%{
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateX(200px);
+        background: blue;
+    }
+    100%{
+        transform: translateX(-300);
+        background: red;
+    }
+}
