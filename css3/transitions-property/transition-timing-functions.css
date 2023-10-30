@@ -1,0 +1,28 @@
+div{
+    width: 120px;
+    height: 120px;
+    background: blue;
+    color: white;
+    border-radius: 10%;
+    margin: 18px;
+    text-align: center;
+    transition: all 1s ease;
+}
+div:hover{
+    transform: translateX(230px);
+}
+.ease{
+    transition-timing-function: ease;
+}/*it is work as a defalt and slow start,fast,slow end*/
+.linear{
+    transition-timing-function: linear;
+}/*it is work as same speed start to end*/
+.ease-in{
+    transition-timing-function: ease-in;
+}/*it is work as slow start*/
+.ease-out{
+    transition-timing-function: ease-out;
+}/*it is work as slow end*/
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}/*it is work as aease and defalt*/
