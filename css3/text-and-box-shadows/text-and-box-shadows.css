@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    font-size: 4rem;
+    text-shadow: 3px 3px 2px gray;
+}
+.box{
+    width: 300px;
+    height: 100px;
+    background: green;
+    box-shadow: 5px 5px 1px gray;
+    transition: all 5s linear;
+}
+.box:hover{
+    background: red;
+    box-shadow: 15px 10px 2px gray;
+}
