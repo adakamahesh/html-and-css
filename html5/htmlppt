@@ -1,0 +1,46 @@
+                     HTML
+->It stands for HyperText Markup Language.
+->It Must Basic Building Block of The Web Allows you to add/change Website Content.
+->It is useful  for web developers,software developers and marketing professionals etc.
+Google chrome
+->it is used to web browser
+Visual studio code
+-> it is used to text editor
+           Basics tags of html
+-> <element> content </element>
+-> <h1> heading </h1> ===heading element using upto 6 
+-> <p> paragraph </p> ===paragraph element
+-> <img src=”......”> ===image element
+-> </br> ===line break
+-> <title> page title </title> ===this is title element
+-> <body> body of page </body>===body element
+-> <a href=” ”> text <a> === this is link element
+-> <sup> description </sup> === it is used to top of data
+-> <sub> description</sub> === it is used to bottom of data
+-> <strong>description</strong> ===it is used to stronger  the  data 
+-> <em> description</em> ===it is used to change the description into italic style
+-> &copy; ===c round
+-> <ul>     </ul> === unordered list
+-> <li>     </li> === lists
+-> <ol>     </ol> ===ordered list 
+-> <table>    <table> === it is used to create a table
+-> <tr>  </tr> === it is used to table row
+-> <th>  </th> ===it is used to table column headings
+-> <td>  </td> ===it is used to table data
+-> <form action=” ” method=” ”>      </form> === it is used to create
+a forms 
+-> <label for=” “>     </label> === it is used to create a label
+-> <input type=”” name=”” id=””> === it is used to type of label
+-> <textarea name=” ” id=” ” cols=” “ rows=” “> </textarea> === it is used to description
+
+             Basic structure of html
+<!DOCTYPE html> === HTML version
+<html> === root element
+    <head>=== information about the page
+       <title>docement<title> === page title
+            ……meta,links
+     </head>
+    <body> === what will display the page
+       …..page content
+    </body>
+</html>
